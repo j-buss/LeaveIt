@@ -16,3 +16,4 @@
 </footer>
 
 {{ partial "js.html" . }}
+{{ if .Params.katex }}{{ partial "katex.html" . }}{{ end }}
